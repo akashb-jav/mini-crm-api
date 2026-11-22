@@ -1,5 +1,7 @@
 # Mini CRM
 
+[![CI](https://github.com/akashb-jav/mini-crm-api/actions/workflows/ci.yml/badge.svg)](https://github.com/akashb-jav/mini-crm-api/actions/workflows/ci.yml)
+
 A small API that records customer enquiries so a team can follow up.
 Built with Python, FastAPI and SQLite.
 
