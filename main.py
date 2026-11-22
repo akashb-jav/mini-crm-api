@@ -1,9 +1,10 @@
+import os
 import sqlite3
 from contextlib import contextmanager
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-DB_PATH = "crm.db"
+DB_PATH = os.getenv("DB_PATH", "crm.db")
 
 app = FastAPI(title="Mini CRM")
 
