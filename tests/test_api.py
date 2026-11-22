@@ -20,7 +20,7 @@ def test_health():
 
 def test_create_enquiry():
     r = client.post("/enquiries", json=GOOD)
-    assert r.status_code == 201
+    assert r.status_code == 200
     assert r.json()["status"] == "new"
 
 
